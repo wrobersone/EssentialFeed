@@ -16,6 +16,7 @@
 		9078B7DE254625FB009D98BA /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078B7DD254625FB009D98BA /* RemoteFeedLoader.swift */; };
 		907FD949254749EE00D80322 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FD948254749EE00D80322 /* HTTPClient.swift */; };
 		907FD94D25474A4E00D80322 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FD94C25474A4E00D80322 /* FeedItemsMapper.swift */; };
+		9080B4B7254AF6BE006A618A /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080B4B6254AF6BE006A618A /* XCTestCase+MemoryLeakTracking.swift */; };
 		909207C4254A7F2F0098D8F0 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909207C3254A7F2F0098D8F0 /* URLSessionHTTPClientTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		9078B7DD254625FB009D98BA /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		907FD948254749EE00D80322 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		907FD94C25474A4E00D80322 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
+		9080B4B6254AF6BE006A618A /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		909207C3254A7F2F0098D8F0 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 		9078B7EE25468DDC009D98BA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				9080B4B6254AF6BE006A618A /* XCTestCase+MemoryLeakTracking.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9078B7D925461421009D98BA /* RemoteFeedLoaderTests.swift in Sources */,
+				9080B4B7254AF6BE006A618A /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				909207C4254A7F2F0098D8F0 /* URLSessionHTTPClientTests.swift in Sources */,
 				9078B7C02546104E009D98BA /* EssentialFeedTests.swift in Sources */,
 			);
