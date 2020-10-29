@@ -130,8 +130,8 @@
 		9078B7ED25468DA7009D98BA /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
-				9078B7D825461421009D98BA /* RemoteFeedLoaderTests.swift */,
 				9078B7EE25468DDC009D98BA /* Helpers */,
+				9078B7D825461421009D98BA /* RemoteFeedLoaderTests.swift */,
 				909207C3254A7F2F0098D8F0 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed API";
